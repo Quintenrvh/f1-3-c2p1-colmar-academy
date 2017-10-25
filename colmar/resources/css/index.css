@@ -1,0 +1,373 @@
+
+
+body {
+  line-height: 1.4;
+}
+
+html {
+  font-family: 'arimo', sans-serif;
+}
+
+#header{
+ height: 4rem;
+}
+
+header nav {
+  display: flex;
+  margin: 0px auto;
+  width: 100%;
+  height: 4rem;
+  align-items: center;
+}
+ header img {
+   height: 4rem;
+   padding-left: 1.5rem;
+ }
+
+ #headertitle {
+   font-size: 2rem;
+ }
+
+ #headerright {
+   padding-right: 1.5rem;
+   font-size: 1rem;
+   margin-left: 35.3125rem;
+   opacity: 0.7;
+ }
+
+ #headerright span {
+   padding-right: 1rem;
+ }
+
+#jumbotron {
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  display: flex;
+  background-color: #e7e7e7;
+}
+
+#jumbotron img {
+  width: 60%;
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+  height: 40%;
+}
+
+#jumbotrontext {
+  width: 40%;
+  margin-right: 1.5rem;
+  margin-top: 2.5rem;
+}
+
+#jumbotron h2 {
+  font-size: 3.375rem;
+  opacity: 0.7;
+}
+
+#jumbotron p {
+  font-size: 1.375rem;
+  opacity: 0.7;
+}
+
+#jumbotronbutton {
+  text-align: center;
+  padding: 0.5rem 0px;
+  margin-top: 3.125rem;
+  font-size: 1.6875rem;
+  background-color: #14191C;
+  margin-right: 2.8125rem;
+  opacity: 0.7;
+}
+
+  #jumbotronbutton span{
+    color: white;
+  }
+
+#firstsection {
+  display: flex;
+}
+
+#infosection {
+  width: 60%;
+  padding: 2rem 1.5rem;
+}
+
+#infosection img{
+  width: 100%;
+  height: 60%;
+}
+
+#infosection h2{
+  margin-bottom: 24px;
+  font-size: 45px;
+  opacity: 0.7;
+}
+
+#infosection p {
+  font-size: 16px;
+  opacity: 0.7;
+}
+
+#agenda {
+  width: 35%;
+  padding-top: 32px;
+  padding-bottom: 32px;
+  height: 100%;
+  border-left: solid 1px lightgrey;
+  margin: 0px auto;
+}
+
+.agendarows {
+  padding: 16px 16px;
+}
+
+.agendatext {
+  width: 65%;
+  padding-left: 16px;
+  font-size: 16px;
+  justify-content: center;
+  opacity: 0.7;
+}
+
+#orientation{
+  display: flex;
+}
+
+#orientationimg {
+  width: 35%;
+}
+
+#orientation img {
+  width: 100%;
+  height: 100%;
+}
+
+#campus {
+  display: flex;
+}
+
+#campusimg {
+  width: 35%;
+}
+
+#campus img {
+  width: 100%;
+  height: 100%;
+}
+
+#guest {
+  display: flex;
+  background-color: #e7e7e7;
+}
+
+#guestimg {
+  width: 35%
+}
+
+#guest img {
+  width: 100%;
+  height: 100%;
+}
+
+#agenda a{
+  text-decoration: none;
+}
+
+#courses {
+  background-color: #e7e7e7;
+  padding-left: 72px;
+  padding-right: 72px;
+}
+
+#courses h2 {
+  text-align: center;
+  padding: 32px 0px;
+  font-size: 45px;
+  opacity: 0.7;
+}
+
+#maincourses {
+ background-color: #e7e7e7;
+ justify-content: center;
+}
+
+.coursesbox {
+    display: inline-flex;
+    position: relative;
+    flex-direction: column;
+    width: 30%;
+    justify-content: space-around;
+    padding-bottom: 16px;
+    padding-left: 16px;
+    padding-right: 16px;
+}
+
+.coursesbox img {
+  width: 100%;
+  height: 100%;
+  padding: 0px auto;
+}
+
+.coursestext {
+  background-color: white;
+  padding-top: 16px;
+  padding-left: 16px;
+  padding-bottom: 24px;
+  opacity: 0.7;
+
+}
+
+.coursestext h4 {
+  font-size: 24px;
+}
+
+.coursestext span {
+  padding: 8px 0px;
+}
+
+.coursestext p {
+  font-size: 15.5px;
+}
+
+#thesissection {
+
+}
+
+#thesistitle {
+  padding: 32px 0px;
+  text-align: center;
+  font-size: 32px;
+  opacity: 0.7;
+}
+
+#thesis {
+  width: 60%;
+  padding-left: 24px;
+  padding-right: 24px;
+  padding-bottom: 24px;
+}
+
+#thesis video {
+  width: 100%;
+  background-color: #e7e7e7;
+  height: 450px;
+  border: 2px solid lightgrey;
+}
+
+.thesistext h3 {
+  font-size: 20px;
+  padding-bottom: 8px;
+}
+
+.thesistext {
+  padding-bottom: 32px;
+  opacity: 0.7;
+}
+
+#thesisextra {
+  width: 40%;
+}
+
+.thesisbox {
+  display: flex;
+  padding: 16px 16px;
+  height: 180px;
+}
+
+#thesisunder {
+  display: flex;
+}
+
+.extraimage {
+  width: 35%;
+}
+
+.thesisbox img {
+  width: 100%;
+  height: 100%;
+}
+
+.extratext {
+  width: 65%;
+  padding-left: 16px;
+  padding-bottom: 8px;
+  opacity: 0.7;
+}
+
+.extratext h4 {
+  font-size: 23px;
+}
+
+#fisma {
+  background-color: #e7e7e7;
+}
+
+#nowandthen .extratext {
+  margin-top: 10px;
+}
+
+footer {
+  padding-top: 16px;
+  padding-left: 24px;
+  padding-right: 24px;
+  border-top:  solid 1px lightgrey;
+  display: flex;
+}
+
+#footerleft {
+  width: 30%;
+  opacity: 0.7;
+}
+
+#footerright {
+  margin-left: 750px;
+  opacity: 0.7;
+}
+
+.mobileimages {
+  display: none;
+}
+
+@media only screen and (max-width: 500px){
+.mobileimages{
+  display: inline;
+}
+}
+
+@media only screen and (max-width: 500px){
+#headertitle  {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 500px){
+#headerright  {
+    display: none;
+  }
+}
+
+#headerimage{
+  display: flex;
+  align-items: center;
+  height: 2rem;
+}
+
+@media only screen and (max-width: 500px){
+#headerimage{
+    justify-content: space-between;
+    width: 100%;
+    height: 2rem;
+  }
+}
+
+@media only screen and (max-width: 500px;){
+  #jumbotrontext{
+    float: left;
+  }
+}
+
+@media only screen and (max-width: 500px;){
+#jumbotron img  {
+  width: 100%;
+  }
+}
